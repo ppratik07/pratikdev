@@ -97,13 +97,13 @@ export const Contact = () => {
                                 Follow me on social media to stay updated with my latest projects and tech insights.
                             </p>
                             <div className="flex justify-center sm:justify-start space-x-4">
-                                <a href="#" className="p-2 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-full text-slate-700 dark:text-slate-300 transition-colors">
+                                <a href="#" target="_blank" className="p-2 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-full text-slate-700 dark:text-slate-300 transition-colors">
                                     <Github size={24} className="text-blue-500" />
                                 </a>
-                                <a href="#" className="p-2 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-full text-slate-700 dark:text-slate-300 transition-colors">
+                                <a href="https://www.linkedin.com/in/pratik-prajapati79/" target="_blank" className="p-2 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-full text-slate-700 dark:text-slate-300 transition-colors">
                                     <Linkedin size={24} className="text-blue-500" />
                                 </a>
-                                <a href="#" className="p-2 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-full text-slate-700 dark:text-slate-300 transition-colors">
+                                <a href="https://x.com/thecodedguy_" target="_blank" className="p-2 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-full text-slate-700 dark:text-slate-300 transition-colors">
                                     <Twitter size={24} className="text-blue-500" />
                                 </a>
                             </div>

@@ -42,7 +42,7 @@ export const Footer = () => {
                             <Github size={18} /> <span className="hidden sm:inline">GitHub</span>
                         </a>
                         <a
-                            href="https://linkedin.com"
+                            href="https://www.linkedin.com/in/pratik-prajapati79/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-slate-400 hover:text-white transition flex items-center gap-1"
@@ -50,7 +50,7 @@ export const Footer = () => {
                             <Linkedin size={18} /> <span className="hidden sm:inline">LinkedIn</span>
                         </a>
                         <a
-                            href="https://twitter.com"
+                            href="https://x.com/thecodedguy_"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-slate-400 hover:text-white transition flex items-center gap-1"
