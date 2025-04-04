@@ -1,6 +1,8 @@
 import { Github, Linkedin, Mail, MapPin, Phone, Twitter } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
+import emailjs from '@emailjs/browser'
+import { EmailJSResponseStatus } from '@emailjs/browser';
 
 export const Contact = () => {
 
@@ -24,17 +26,22 @@ export const Contact = () => {
         e.preventDefault();
         setIsSubmitting(true);
 
-        // Simulate form submission
-        setTimeout(() => {
+        emailjs.send(
+            import.meta.env.VITE_EMAILJS_SERVICE_ID,   
+            import.meta.env.VITE_EMAILJS_TEMPLATE_ID,   
+            formData,
+            import.meta.env.VITE_EMAILJS_PUBLIC_KEY 
+        ).then(() => {
             toast.success("Message sent, Thank you for contacting me. I'll get back to you soon!");
+            alert("Message sent, Thank you for contacting me. I'll get back to you soon!");
             setIsSubmitting(false);
-            setFormData({
-                name: '',
-                email: '',
-                subject: '',
-                message: '',
-            });
-        }, 1000);
+            setFormData({ name: '', email: '', subject: '', message: '' });
+        }).catch((error: EmailJSResponseStatus) => {
+            toast.error("Oops! Something went wrong. Try again later.");
+            alert("Oops! Something went wrong. Try again later.");
+            console.error(error);
+            setIsSubmitting(false);
+        });
     };
 
     const contactInfo = [
@@ -54,7 +61,6 @@ export const Contact = () => {
             icon: <MapPin size={24} className="text-blue-500" />,
             title: "Location",
             content: "India",
-            link: "#"
         }
     ];
 
