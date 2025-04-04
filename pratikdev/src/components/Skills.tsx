@@ -12,14 +12,14 @@ export const Skills = () => {
         { name: 'Node.js', level: 85 },
         { name: 'Express.js', level: 80 },
         { name: 'SQL Server', level: 75 },
-        { name: 'MongoDB', level: 50 },
+        { name: 'Sitecore', level: 90 },
         { name: 'PostgreSQL', level: 80 },
         { name: 'C #', level: 70 },
     ];
 
     const tools = [
         { name: 'Git' },
-        { name: 'Sitecore' },
+        { name: 'Vercel' },
         { name: 'Jest' },
         { name: 'Figma' },
         { name: 'VS Code' },
