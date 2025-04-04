@@ -5,7 +5,7 @@ export const Hero = () => {
         <section id="home" className="pt-28 pb-20 md:pt-32 md:pb-28 bg-gradient-to-b from-white to-slate-50 dark:from-slate-900 dark:to-slate-800">
             <div className="container mx-auto px-6">
                 <div className="flex flex-col md:flex-row items-center">
-                    {/* Text Content */}
+             
                     <div className="md:w-3/5 text-center md:text-left">
                         <div className="inline-block px-3 py-1 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 font-medium text-sm mb-6">
                             Full Stack Web Developer
@@ -18,7 +18,7 @@ export const Hero = () => {
                             transforming ideas into elegant, functional web applications.
                         </p>
 
-                        {/* Buttons */}
+                        
                         <div className="flex flex-wrap justify-center md:justify-start gap-4">
                             <a
                                 href="#projects"
@@ -46,7 +46,7 @@ export const Hero = () => {
                                 <Github size={20} />
                             </a>
                             <a
-                                href="https://linkedin.com"
+                                href="https://www.linkedin.com/in/pratik-prajapati79/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="p-2 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-full text-slate-700 dark:text-slate-200 transition"
@@ -55,7 +55,7 @@ export const Hero = () => {
                                 <Linkedin size={20} />
                             </a>
                             <a
-                                href="mailto:contact@example.com"
+                                href="mailto:ppratikcodes@gmail.com"
                                 className="p-2 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-full text-slate-700 dark:text-slate-200 transition"
                                 aria-label="Email"
                             >
@@ -69,7 +69,7 @@ export const Hero = () => {
                         <div className="relative">
                             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-slate-700 shadow-lg">
                                 <img
-                                    src="/profile.jpg"
+                                    src="https://pub-1344e2d6b42247e4872b738f42a238d4.r2.dev/PratikPrajapati.jpeg"
                                     alt="Pratik Prajapati"
                                     className="w-full h-full object-cover"
                                 />
