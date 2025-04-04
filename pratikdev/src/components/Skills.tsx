@@ -5,25 +5,22 @@ export const Skills = () => {
         { name: 'JavaScript', level: 90 },
         { name: 'TypeScript', level: 80 },
         { name: 'React.js', level: 85 },
-        { name: 'Next.js', level: 75 },
+        { name: 'Next.js', level: 50 },
     ];
 
     const backendSkills = [
         { name: 'Node.js', level: 85 },
         { name: 'Express.js', level: 80 },
-        { name: 'Python', level: 75 },
-        { name: 'MongoDB', level: 85 },
+        { name: 'SQL Server', level: 75 },
+        { name: 'MongoDB', level: 50 },
         { name: 'PostgreSQL', level: 80 },
-        { name: 'GraphQL', level: 70 },
+        { name: 'C #', level: 70 },
     ];
 
     const tools = [
         { name: 'Git' },
-        { name: 'Docker' },
-        { name: 'AWS' },
-        { name: 'Redux' },
+        { name: 'Sitecore' },
         { name: 'Jest' },
-        { name: 'Webpack' },
         { name: 'Figma' },
         { name: 'VS Code' },
     ];
@@ -93,7 +90,7 @@ export const Skills = () => {
                                 key={tool.name}
                                 className="bg-white dark:bg-slate-900 p-4 rounded-lg shadow-md flex flex-col items-center hover:bg-blue-50 dark:hover:bg-slate-800 transition-all duration-300"
                             >
-                                <span className="text-blue-500 dark:text-blue-400 font-bold text-sm">{tool.name}</span>
+                                <span className="text-blue-500 justify-center dark:text-blue-400 font-bold text-sm">{tool.name}</span>
                             </div>
                         ))}
                     </div>
