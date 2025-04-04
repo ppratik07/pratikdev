@@ -44,7 +44,7 @@ export const About = () => {
                             <ul className="mt-2 text-slate-600 dark:text-slate-300 text-sm">
                                 <li><span className="font-medium">Name:</span> Pratik Prajapati</li>
                                 <li><span className="font-medium">Location:</span> India</li>
-                                <li><span className="font-medium">Email:</span> contact@example.com</li>
+                                <li><span className="font-medium">Email:</span> ppratikcodes@gmail.com</li>
                                 <li><span className="font-medium">Availability:</span> Full-time</li>
                             </ul>
                         </div>
@@ -56,10 +56,9 @@ export const About = () => {
                             </div>
                             <h4 className="text-lg font-semibold text-slate-800 dark:text-white">Experience</h4>
                             <ul className="mt-2 text-slate-600 dark:text-slate-300 text-sm">
-                                <li><span className="font-medium">Years:</span> 5+</li>
-                                <li><span className="font-medium">Clients:</span> 20+</li>
-                                <li><span className="font-medium">Projects:</span> 30+</li>
-                                <li><span className="font-medium">Position:</span> Senior Developer</li>
+                                <li><span className="font-medium">Years:</span> 4+</li>
+                                <li><span className="font-medium">Projects:</span> 10+</li>
+                                <li><span className="font-medium">Position:</span> SDE-II</li>
                             </ul>
                         </div>
 
@@ -70,10 +69,10 @@ export const About = () => {
                             </div>
                             <h4 className="text-lg font-semibold text-slate-800 dark:text-white">Tech Stack</h4>
                             <ul className="mt-2 text-slate-600 dark:text-slate-300 text-sm">
-                                <li><span className="font-medium">Frontend:</span> React, Vue</li>
-                                <li><span className="font-medium">Backend:</span> Node.js, Python</li>
-                                <li><span className="font-medium">Database:</span> MongoDB, PostgreSQL</li>
-                                <li><span className="font-medium">Tools:</span> Git, Docker, Prisma</li>
+                                <li><span className="font-medium">Frontend:</span> React, Next</li>
+                                <li><span className="font-medium">Backend:</span> Node.js, C#, ASP.NET</li>
+                                <li><span className="font-medium">Database:</span> MongoDB, PostgreSQL, Prisma</li>
+                                <li><span className="font-medium">Tools:</span> Git,Sitecore</li>
                             </ul>
                         </div>
 
@@ -84,10 +83,9 @@ export const About = () => {
                             </div>
                             <h4 className="text-lg font-semibold text-slate-800 dark:text-white">Education</h4>
                             <ul className="mt-2 text-slate-600 dark:text-slate-300 text-sm">
-                                <li><span className="font-medium">Degree:</span> B.Tech in CS</li>
-                                <li><span className="font-medium">University:</span> Example University</li>
-                                <li><span className="font-medium">Graduation:</span> 2018</li>
-                                <li><span className="font-medium">Certifications:</span> 5+</li>
+                                <li><span className="font-medium">Degree:</span> B.Tech</li>
+                                <li><span className="font-medium">University:</span> Siddaganga Institute of Technology</li>
+                                <li><span className="font-medium">Graduation:</span> 2020</li>
                             </ul>
                         </div>
                     </div>
