@@ -94,8 +94,9 @@ export const About = () => {
                 {/* Resume Download */}
                 <div className="mt-12 text-center">
                     <a
-                        href="#"
+                        href="https://pub-1344e2d6b42247e4872b738f42a238d4.r2.dev/Full%20Stack%20CV.pdf"
                         className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg font-medium transition duration-200"
+                        target="_blank"
                     >
                         <FileText size={18} /> Download Resume
                     </a>
