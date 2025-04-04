@@ -3,28 +3,25 @@ import { ExternalLink, Github } from "lucide-react";
 export const Projects = () => {
     const projects = [
         {
-            title: "E-Commerce Platform",
-            description: "A full-featured e-commerce platform with product management, shopping cart, and payment processing.",
+            title: "Color Validator",
+            description: "Verify packaging colors against brand standards with precision, generate comprehensive reports, and track color variations across print batches.",
             image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&auto=format&fit=crop&q=60",
-            tech: ["React", "Node.js", "MongoDB", "Stripe"],
-            demoLink: "#",
-            codeLink: "#",
+            tech: ["React", "Node.js", "PostgreSQL", "TypeScript"],
+            demoLink: "https://color-validator.vercel.app/",
         },
         {
-            title: "Task Management App",
-            description: "A collaborative task management application with real-time updates and team collaboration features.",
+            title: "Spacebooks",
+            description: "Smart way to manage spaces. Better experience of workplace scheduling",
             image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&auto=format&fit=crop&q=60",
-            tech: ["Vue.js", "Express", "Socket.io", "PostgreSQL"],
-            demoLink: "#",
-            codeLink: "#",
+            tech: ["React", "Node.js", "Tailwind CSS", "TypeScript"],
+            demoLink: "https://spacebooks.vercel.app",
         },
         {
-            title: "Finance Dashboard",
-            description: "Interactive dashboard for financial data visualization with advanced filtering and reporting.",
+            title: "Crypblock",
+            description: "Your favourite wallet to store crypto and blockchains.",
             image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&auto=format&fit=crop&q=60",
-            tech: ["React", "D3.js", "Python", "Django"],
-            demoLink: "#",
-            codeLink: "#",
+            tech: ["React", "Tailwind CSS", "Blockchain"],
+            demoLink: "https://crypblock.vercel.app",
         },
     ];
 
@@ -58,9 +55,6 @@ export const Projects = () => {
                         <div className="p-6 pt-0 border-t border-slate-100 dark:border-slate-700 flex justify-between">
                             <a href={project.demoLink} className="inline-flex items-center gap-1 text-sm font-medium text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300">
                                 Live Demo <ExternalLink size={14} />
-                            </a>
-                            <a href={project.codeLink} className="inline-flex items-center gap-1 text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white">
-                                View Code <Github size={14} />
                             </a>
                         </div>
                     </div>
