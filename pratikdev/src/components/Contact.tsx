@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, Phone, Twitter } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 
@@ -26,7 +26,7 @@ export const Contact = () => {
 
         // Simulate form submission
         setTimeout(() => {
-            toast.success( "Message sent, Thank you for contacting me. I'll get back to you soon!");
+            toast.success("Message sent, Thank you for contacting me. I'll get back to you soon!");
             setIsSubmitting(false);
             setFormData({
                 name: '',
@@ -41,14 +41,14 @@ export const Contact = () => {
         {
             icon: <Mail size={24} className="text-blue-500" />,
             title: "Email Me",
-            content: "contact@example.com",
-            link: "mailto:contact@example.com"
+            content: "ppratikcodes@gmail.com",
+            link: "mailto:ppratikcodes@gmail.com"
         },
         {
             icon: <Phone size={24} className="text-blue-500" />,
             title: "Call Me",
-            content: "+1 234 567 890",
-            link: "tel:+1234567890"
+            content: "+91 7979096268",
+            link: "tel:+91 7979096268"
         },
         {
             icon: <MapPin size={24} className="text-blue-500" />,
@@ -59,7 +59,7 @@ export const Contact = () => {
     ];
 
     return (
-        <section id="contact" className="py-20 bg-slate-50 dark:bg-slate-800">
+        <section id="contact" className="py-20 bg-slate-50 dark:bg-slate-800 px-6 md:px-10">
             <div className="section-container">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">Get in Touch</h2>
@@ -98,13 +98,13 @@ export const Contact = () => {
                             </p>
                             <div className="flex justify-center sm:justify-start space-x-4">
                                 <a href="#" className="p-2 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-full text-slate-700 dark:text-slate-300 transition-colors">
-                                    GH
+                                    <Github size={24} className="text-blue-500" />
                                 </a>
                                 <a href="#" className="p-2 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-full text-slate-700 dark:text-slate-300 transition-colors">
-                                    LI
+                                    <Linkedin size={24} className="text-blue-500" />
                                 </a>
                                 <a href="#" className="p-2 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-full text-slate-700 dark:text-slate-300 transition-colors">
-                                    TW
+                                    <Twitter size={24} className="text-blue-500" />
                                 </a>
                             </div>
                         </div>
