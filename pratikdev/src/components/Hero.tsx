@@ -69,7 +69,7 @@ export const Hero = () => {
                         <div className="relative">
                             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-slate-700 shadow-lg">
                                 <img
-                                    src="https://pub-1344e2d6b42247e4872b738f42a238d4.r2.dev/PratikPrajapati.jpeg"
+                                    src="https://pub-1344e2d6b42247e4872b738f42a238d4.r2.dev/Pratik.jpeg"
                                     alt="Pratik Prajapati"
                                     className="w-full h-full object-cover"
                                 />
